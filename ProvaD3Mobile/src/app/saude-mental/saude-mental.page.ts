@@ -25,10 +25,5 @@ export class SaudeMentalPage implements OnInit {
         await this.pessoaService.insertPessoa(this.pessoa);
 
 
-        const t = await this.toast.create({
-            message: "Pessoa salva com sucesso!",
-            duration: 1000,
-            position: "bottom",
-        });
     }
 }
