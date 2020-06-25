@@ -1,0 +1,7 @@
+{
+  "name": "ProvaD3Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
